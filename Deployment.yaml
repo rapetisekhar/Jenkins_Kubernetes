@@ -14,7 +14,7 @@ spec:
       spec:
        containers:
         - name: devops
-          image: markhor1995/jenkins-k8s-demo
+          image: sekharrapeti/vihaan:latest
           imagePullPolicy: Always
           ports:
           - containerPort: 80
