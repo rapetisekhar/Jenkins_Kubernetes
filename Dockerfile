@@ -1,5 +1,5 @@
 # Use the official CentOS Apache HTTP Server image
-FROM amazon-linux/httpd
+FROM centos/httpd
 
 # Download and unzip the web content
 ADD https://www.free-css.com/assets/files/free-css-templates/download/page254/photogenic.zip /var/www/html/
